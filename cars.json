@@ -1,0 +1,116 @@
+[
+	{
+		"id": "rdmstr",
+		"year": 1948,
+		"make": "Buick",
+		"model": "Roadmaster",
+		"mileage": "",
+		"engine": "320ci Fireball I8",
+		"trans": "2-Speed Automatic",
+		"exterior": "Cairo Cream",
+		"interior": "Black",
+		"status": "Available",
+		"price": 64500,
+		"site": "http://www.hemmings.com/classifieds/dealer/buick/roadmaster/1741868.html",
+		"images": {
+			"full": ["rdmstr_1.jpg", "rdmstr_2.jpg", "rdmstr_3.jpg", "rdmstr_4.jpg", "rdmstr_5.jpg", "rdmstr_6.jpg", "rdmstr_7.jpg"],
+			"thumb": ["rdmstr_1_thumb.jpg", "rdmstr_2_thumb.jpg", "rdmstr_3_thumb.jpg", "rdmstr_4_thumb.jpg", "rdmstr_5_thumb.jpg", "rdmstr_6_thumb.jpg", "rdmstr_7_thumb.jpg"]
+		},
+		"tag": "Only 8,895 production models were made. Perfect for Sunday drives, in or out of the driveway."
+	},
+	{
+		"id": "db6",
+		"year": 1966,
+		"make": "Aston Martin",
+		"model": "DB6 Coupe",
+		"mileage": "",
+		"engine": "3995cc Tadek Marek I6",
+		"trans": "4-Speed Manual",
+		"exterior": "Fiesta Red",
+		"interior": "Biege",
+		"status": "Available",
+		"price": 449500,
+		"site": "http://www.hemmings.com/classifieds/dealer/aston-martin/db6/1728314.html",
+		"images": {
+			"full": ["db6_1.jpg", "db6_2.jpg", "db6_3.jpg", "db6_4.jpg", "db6_5.jpg", "db6_6.jpg", "db6_7.jpg", "db6_8.jpg"],
+			"thumb" : ["db6_1_thumb.jpg", "db6_2_thumb.jpg", "db6_3_thumb.jpg", "db6_4_thumb.jpg", "db6_5_thumb.jpg", "db6_6_thumb.jpg", "db6_7_thumb.jpg", "db6_8_thumb.jpg"]
+		},
+		"tag": "James Bond owns one and so should you. Formal wear and ejection seat not included."
+	},
+	{
+		"id": "jag_etype",
+		"year": 1963,
+		"make": "Eagle",
+		"model": "SuperSport",
+		"mileage": 1250,
+		"engine": "4.7L XK V12",
+		"trans": "5-Speed Manual",
+		"exterior": "Opalescent Silver Blue",
+		"interior": "Biscuit",
+		"status": "Available",
+		"price": 836000,
+		"site": "http://www.eaglegb.com/cars/eagle-supersport-roadster-for-sale-ady881d#.VYAg2xNViko",
+		"images": {
+			"full": ["jag_etype_1.jpg", "jag_etype_2.jpg", "jag_etype_3.jpg", "jag_etype_4.jpg", "jag_etype_5.jpg", "jag_etype_6.jpg", "jag_etype_7.jpg"],
+			"thumb": ["jag_etype_1_thumb.jpg", "jag_etype_2_thumb.jpg", "jag_etype_3_thumb.jpg", "jag_etype_4_thumb.jpg", "jag_etype_5_thumb.jpg", "jag_etype_6_thumb.jpg", "jag_etype_7_thumb.jpg"]
+		},
+		"tag": "Enzo Ferrari called the Jaguar E-Type 'the most beautiful car ever made'. This Eagle built SuperSport enhances both the XKE's 'natural' beauty and brawn."
+	},
+	{
+		"id": "mb300sl",
+		"year": 1963,
+		"make": "Mercedes Benz",
+		"model": "300SL Roadster",
+		"mileage": 38810,
+		"engine": "2996cc M198 SOHC I6",
+		"trans": "4-Speed Manual",
+		"exterior": "White",
+		"interior": "Red",
+		"status": "Available",
+		"price": "Inquire",
+		"site": "http://www.hemmings.com/classifieds/dealer/mercedes-benz/300sl/1742976.html",
+		"images": {
+			"full": ["mb300sl_1.jpg", "mb300sl_2.jpg", "mb300sl_3.jpg", "mb300sl_4.jpg", "mb300sl_5.jpg", "mb300sl_6.jpg", "mb300sl_7.jpg"],
+			"thumb": ["mb300sl_1_thumb.jpg", "mb300sl_2_thumb.jpg", "mb300sl_3_thumb.jpg", "mb300sl_4_thumb.jpg", "mb300sl_5_thumb.jpg", "mb300sl_6_thumb.jpg", "mb300sl_7_thumb.jpg"]
+		},
+		"tag": "A powerful performer timelessly designed, the Mercedes Benz 300SL Roadster is quite possibly the most elegant convertible ever built."
+	}, 
+	{
+		"id": "porsche911",
+		"year": 1971,
+		"make": "Porsche",
+		"model": "911 Coupe",
+		"mileage": "",
+		"engine": "2.4L Flat-6",
+		"trans": "5-Speed Manual",
+		"exterior": "Olympic Blue",
+		"interior": "Red",
+		"status": "Contingent",
+		"price": "Inquire",
+		"site": "http://singervehicledesign.com/gallery/the-machines/san-diego/",
+		"images": {
+			"full": ["porsche911_1.jpg", "porsche911_2.jpg", "porsche911_3.jpg", "porsche911_4.jpg", "porsche911_5.jpg", "porsche911_6.jpg"],
+			"thumb": ["porsche911_1_thumb.jpg", "porsche911_2_thumb.jpg", "porsche911_3_thumb.jpg", "porsche911_4_thumb.jpg", "porsche911_5_thumb.jpg", "porsche911_6_thumb.jpg"]
+		},
+		"tag": "The consumate performer, the Porsche 911 has barely changed in more than 50 years of production. This Singer designed 911 has been meticulously and beautifully detailed, restoring and highlighting its beauty while also strengthening its racing heart."
+	},
+	{
+		"id": "f250",
+		"year": 1964,
+		"make": "Ferrari",
+		"model": "250 GT/L Berlinetta 'Lusso'",
+		"mileage": "",
+		"engine": "2953cc 'Colombo' V12 60°",
+		"trans": "5-Speed Manual",
+		"exterior": "Rosso Italver",
+		"interior": "Cuoio",
+		"status": "Sold",
+		"price": 1106702,
+		"site": "http://www.rmauctions.com/lots/lot.cfm?lot_id=1059492",
+		"images": {
+			"full": ["f250_1.jpg", "f250_2.jpg", "f250_3.jpg", "f250_4.jpg", "f250_5.jpg", "f250_6.jpg", "f250_7.jpg"],
+			"thumb": ["f250_1_thumb.jpg", "f250_2_thumb.jpg", "f250_3_thumb.jpg", "f250_4_thumb.jpg", "f250_5_thumb.jpg", "f250_6_thumb.jpg", "f250_7_thumb.jpg"]
+		},
+		"tag": "Both Eric Clapton and Steve McQueen were 'Lusso' owners. You're cool too, right? Well, you can always be cooler."
+	}
+]
