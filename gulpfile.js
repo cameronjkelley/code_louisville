@@ -10,7 +10,7 @@ var concat = require("gulp-concat"),
 	uglify = require("gulp-uglify");
 
 gulp.task("concatCss", function() {
-	return gulp.src(["css/application.css", "css/slick-theme.css"])
+	return gulp.src(["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/slick-theme.css", "css/main.css"])
 	    .pipe(maps.init())
 		.pipe(cssConcat("app.css"))
 		.pipe(maps.write("./"))
