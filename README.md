@@ -1,1 +1,2 @@
-This website is a project for May 2015 Code Louisville
+# This site is a project for the May 2015 Code Louisville group.
+# It can be viewed here: https://cameronjkelley.github.io/code_louisville
