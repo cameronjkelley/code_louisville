@@ -10,7 +10,7 @@ var concat = require("gulp-concat"),
 	uglify = require("gulp-uglify");
 
 gulp.task("concatCss", function() {
-	return gulp.src(["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/slick-theme.css", "css/main.css"])
+	return gulp.src(["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/lightbox.css", "css/main.css"])
 	    .pipe(maps.init())
 		.pipe(cssConcat("app.css"))
 		.pipe(maps.write("./"))
@@ -18,7 +18,7 @@ gulp.task("concatCss", function() {
 });
 
 gulp.task("concatScripts", function() {
-  return gulp.src(["js/jquery-1.11.3.min.js", "js/bootstrap.min.js", "js/lightbox.js", "js/slick.min.js"])
+  return gulp.src(["js/jquery-1.11.3.min.js", "js/bootstrap.min.js", "js/lightbox.min.js"])
 	    .pipe(maps.init())
 		.pipe(concat("app.js"))
 		.pipe(maps.write("./"))
@@ -39,10 +39,9 @@ gulp.task("minifyScripts", ["concatScripts"], function() {
 		.pipe(gulp.dest("dist/js"));
 });
 
-// gulp.task("watchFiles", function() {
-// 	gulp.watch("css/**/*.css", ["concatCss"]);
-// 	gulp.watch("js/*.js", ["concatScripts"]);
-// });
+gulp.task("watchFiles", function() {
+	gulp.watch("css/main.css", ["minifyCss"]);
+});
 
 gulp.task("clean", function() {
 	del(["dist", "css/app.*css*", "js/app.*js*"]);
