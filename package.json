@@ -12,6 +12,7 @@
   },
   "author": "Cameron J. Kelley",
   "license": "MIT",
+  "private": true,
   "bugs": {
     "url": "https://github.com/cameronjkelley/code_louisville/issues"
   },

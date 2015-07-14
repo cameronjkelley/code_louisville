@@ -1,0 +1,42 @@
+<div class="container">
+	<div class="page-header">
+		<h1 class="centered">Our Cars</h1>
+	</div>
+
+	<!-- Listing -->
+	<div class="listing" id="rdmstr" ng-repeat="car in cars" ng-controller="CarCtrl">
+		<div class="container">
+			<div class="row">
+				<div class="summary pl-0">
+					<div class="status" + {{car.status}} + "col-md-6 col-md-push-6 pl-0">
+						<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
+						<ul class="specs pl-0">
+							<li>Engine: {{car.engine}}</li>
+							<li>Transmission: {{car.transmission}}</li>
+							<li>Exterior: {{car.interior}}</li>
+							<li>Interior: {{car.exterior}}</li>
+							<li>Price: {{car.price}}</li>
+						</ul>
+
+						<p>{{car.tagline}}</p>
+
+						<a ng-href={{car.site}} class="btn btn-primary" target="_blank">More Information</a>
+					</div>
+				</div>
+				<!-- Slick Feature Image -->
+				<div class="feature">
+					<div class="pl-0 col-md-6 col-md-pull-6">
+						<div class="fullsize slick" ng-repeat="images in full"><img ng-src="{{car.images.full}}" alt=""></img></div>
+					</div>
+				</div>
+				<!-- End Slick Feature Image -->
+			</div>
+			<!-- Thumbnail Images -->
+			<div class="thumbs pull-left hidden-xs" ng-repeat="thumb in thumbs">
+				<a ng-href="{{car.images.full}}" data-lightbox="{{car.id}}"><img class="img-thumbnail" ng-src="{{car.images.thumb}}" alt=""></img></a>
+			</div>
+			<!-- End Thumbnail Images -->
+		</div>
+	</div>
+	<!-- End Listing -->
+</div>
