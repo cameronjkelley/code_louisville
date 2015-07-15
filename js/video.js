@@ -1,12 +1,12 @@
 $(document).ready(function() {
 	var $video = $('video'), $welcome = $('#welcome');
 	
-	$video.hover(function() {
-		$(this).get(0).pause()
+	$video.mouseenter(function() {
+		$(this).get(0).pause().fadeOut("slow");
 	});
 
 	$video.mouseleave(function() {
-		$(this).get(0).play();
+		$(this).get(0).play().fadeIn("slow");
 	});
 
 	// blackout video & bring welcome to front

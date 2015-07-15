@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="babbitApp">
 	<head>
 		<title>Babbit Brothers' Auto</title>
 
@@ -9,7 +9,14 @@
 		<link href='http://fonts.googleapis.com/css?family=Playball|Vollkorn' rel='stylesheet' type='text/css'>
 		<link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
 		<link href="css/bootstrap-theme.min.css" rel="stylesheet" type='text/css'>
-		<link href="css/main.css" rel="stylesheet" type='text/css'>
+		<link href="css/babbit.css" rel="stylesheet" type='text/css'>
+
+		<script src="js/angular.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/directives.js"></script>
+		<script src="js/filters.js"></script>
+		<script src="js/services.js"></script>
 
 	</head>
 
@@ -35,14 +42,14 @@
 		<!-- End Navbar -->
 
 		<!-- Main -->
-		<div class="main" ng-app="babbitApp">
+		<div class="main" ng-view>
 		</div>
 		<!-- End Main -->
 
 		<!-- Footer -->
-		<footer class="footer">
+		<footer class="footer mt-0">
 			<div class="container">
-				<div class="navbar navbar-static-bottom centered" role="navigation">
+				<div class="navbar navbar-static-bottom center mb-0" role="navigation">
 					<ul class="pl-0">
 						<li><a href="http://www.github.com/cameronjkelley" target="_blank"><img src="images/svg/github.svg" alt="GitHub logo"></a></li>
 						<li><a href="http://www.linkedin.com/in/cameronjkelley" target="_blank"><img src="images/svg/linkedin.svg" alt="LinkedIn logo"></a></li>
@@ -51,11 +58,11 @@
 				</div>
 			</div>
 		</footer>
+
 		<!-- End Footer -->
 
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/video.js"></script>
 
 	</body>
 </html>

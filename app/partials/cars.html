@@ -20,20 +20,20 @@
 
 						<p>{{car.tagline}}</p>
 
-						<a ng-href={{car.site}} class="btn btn-primary" target="_blank">More Information</a>
+						<a ng-href="{{car.site}}" class="btn btn-primary" target="_blank">More Information</a>
 					</div>
 				</div>
 				<!-- Slick Feature Image -->
 				<div class="feature">
 					<div class="pl-0 col-md-6 col-md-pull-6">
-						<div class="fullsize slick" ng-repeat="images in full"><img ng-src="{{car.images.full}}" alt=""></img></div>
+						<div class="fullsize slick" ng-repeat="full in car.images.full"><img ng-src="{{full}}" alt=""></img></div>
 					</div>
 				</div>
 				<!-- End Slick Feature Image -->
 			</div>
 			<!-- Thumbnail Images -->
-			<div class="thumbs pull-left hidden-xs" ng-repeat="thumb in thumbs">
-				<a ng-href="{{car.images.full}}" data-lightbox="{{car.id}}"><img class="img-thumbnail" ng-src="{{car.images.thumb}}" alt=""></img></a>
+			<div class="thumbs pull-left hidden-xs" ng-repeat="full in car.images" ng-repeat="thumb in car.images.thumbs">
+				<a ng-href="{{full}}" data-lightbox="{{car.id}}"><img class="img-thumbnail" ng-src="{{thumb}}" alt=""></img></a>
 			</div>
 			<!-- End Thumbnail Images -->
 		</div>

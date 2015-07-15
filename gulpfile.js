@@ -10,32 +10,32 @@ var concat = require("gulp-concat"),
 	uglify = require("gulp-uglify");
 
 gulp.task("concatCss", function() {
-	return gulp.src(["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/lightbox.css", "css/main.css"])
+	return gulp.src(["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/lightbox.css", "css/babbit.css"])
 	    .pipe(maps.init())
-		.pipe(cssConcat("app.css"))
+		.pipe(cssConcat("main.css"))
 		.pipe(maps.write("./"))
 		.pipe(gulp.dest("css"));
 });
 
 gulp.task("concatScripts", function() {
-  return gulp.src(["js/jquery-1.11.3.min.js", "js/bootstrap.min.js", "js/lightbox.min.js", "js/video.js"])
+  return gulp.src(["js/jquery-1.11.3.min.js", "js/bootstrap.min.js", "js/lightbox.min.js"])
 	    .pipe(maps.init())
-		.pipe(concat("app.js"))
+		.pipe(concat("main.js"))
 		.pipe(maps.write("./"))
 		.pipe(gulp.dest("js"));
 });
 
 gulp.task("minifyCss", ["concatCss"], function() {
-	return gulp.src("css/app.css")
+	return gulp.src("css/main.css")
 		.pipe(minify())
-		.pipe(rename("app.min.css"))
+		.pipe(rename("main.min.css"))
 		.pipe(gulp.dest("dist/css"));
 });
 
 gulp.task("minifyScripts", ["concatScripts"], function() {
-	return gulp.src("js/app.js")
+	return gulp.src("js/main.js")
 		.pipe(uglify())
-		.pipe(rename("app.min.js"))
+		.pipe(rename("main.min.js"))
 		.pipe(gulp.dest("dist/js"));
 });
 
@@ -44,11 +44,11 @@ gulp.task("watchFiles", function() {
 });
 
 gulp.task("clean", function() {
-	del(["dist", "css/app.*css*", "js/app.*js*"]);
+	del(["dist", "css/main.*css*", "js/main.*js*"]);
 });
 
 gulp.task("build", ["minifyCss", "minifyScripts"], function() {
-	return gulp.src(["css/app.*.*", "css/ajax-loader.gif", "js/app.*.*", "cars.html", "contact.html", "index.html", "fonts/**", "images/**"], {base: "./"})
+	return gulp.src(["css/main.*.*", "css/ajax-loader.gif", "js/main.*.*", "cars.html", "contact.html", "index.html", "fonts/**", "images/**"], {base: "./"})
 				.pipe(gulp.dest("dist"));
 });
 
