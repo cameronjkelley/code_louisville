@@ -6,33 +6,28 @@
 	<!-- Listing -->
 	<div class="listing" ng-repeat="car in cars" ng-controller="CarCtrl">
 		<div class="row">
-			<div class="summary" id="{{car.id}}" pl-0 >
-				<div class="status" + {{car.status}} + "col-md-6 col-md-push-6 pl-0">
-					<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
-					<ul class="specs pl-0">
-						<li>Engine: {{car.engine}}</li>
-						<li>Transmission: {{car.transmission}}</li>
-						<li>Exterior: {{car.interior}}</li>
-						<li>Interior: {{car.exterior}}</li>
-						<li>Price: {{car.price}}</li>
-					</ul>
-
-					<p>{{car.tagline}}</p>
-
-					<a ng-href="{{car.site}}" class="btn btn-primary" target="_blank">More Information</a>
-				</div>
+			<div class="summary " + {{car.status}} + " col-md-6 col-md-push-6">
+				<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
+				<ul class="specs pl-0">
+					<li>Engine: {{car.engine}}</li>
+					<li>Transmission: {{car.transmission}}</li>
+					<li>Exterior: {{car.interior}}</li>
+					<li>Interior: {{car.exterior}}</li>
+					<li>Price: {{car.price}}</li>
+				</ul>
+				<p>{{car.tagline}}</p>
+				<a ng-href="{{car.site}}" class="btn btn-primary" target="_blank">More Information</a>
 			</div>
 			<!-- Slick Feature Image -->
 			<div class="full col-md-6 col-md-pull-6">
-				<div class="fullsize slick" ng-repeat="pic in car.images.full"><img ng-src="../images/cars/full/{{pic}}" alt=""></img></div>
+				<div class="fullsize slick" ng-repeat="pic in car.images.full" ng-repeat="alt in car.images.alt"><img ng-src="images/cars/full/{{car.id}}/{{pic}}" alt="{{alt}}"></img></div>
 			</div>
 		</div>
 		<!-- Thumbnails -->
 		<div class="row">
-			<div class="thumbs hidden-xs" ng-repeat="pic in car.images" ng-repeat="thumb in car.images.thumbs" ng-repeat="alt in car.images.alt">
-				<a ng-href="../images/cars/full/{{pic}}" data-lightbox="{{car.id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="../images/cars/thumb/{{thumb}}" alt="{{alt}}"></img></a>
+			<div class="thumbs hidden-xs" ng-repeat="pic in car.images.full" ng-repeat="thumb in car.images.thumbs" ng-repeat="alt in car.images.alt">
+				<a ng-href="images/cars/{{car.id}}/{{pic}}" data-lightbox="{{car.id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="images/cars/{{car.id}}/thumb/{{thumb}}" alt="{{alt}}"></img></a>
 			</div>
 		</div>
 	</div>
-	<!-- End Listing -->
 </div>

@@ -9,8 +9,7 @@ babbitApp.config(["$routeProvider",
 	function($routeProvider) {
 		$routeProvider.
 		when("/home", {
-			templateUrl: "partials/home.html",
-			controller: "HomeCtrl"
+			templateUrl: "partials/home.html"
 		}).
 		when("/cars", {
 			templateUrl: "partials/cars.html",
