@@ -17,10 +17,10 @@ babbitApp.config(["$routeProvider",
 			controller: "CarCtrl"
 		}).
 		when("/contact", {
-			templateUrl: "partials/contact.html",
-			controller: "ContactCtrl"
+			templateUrl: "partials/contact.html"
 		}).
 		otherwise({
-			redirectTo: "/home"
+			redirectTo: "partials/home.html"
 		});
-	}]);
+	}
+]);

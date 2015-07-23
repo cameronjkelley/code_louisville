@@ -9225,11 +9225,6 @@ Main
   margin-top: 20px;
 }
 
-.expose {
-  display: none;
-  position: relative;
-}
-
 .glyphicon {
   padding-right: 5px;
 }
@@ -9250,17 +9245,8 @@ Main
   padding-top: 60px;
 }
 
-.row {
-  max-width: 100%;
-}
-
 .specs {
   font-size: 1.2em;
-}
-
-.summary {
-  max-height: 100%;
-  max-width: 100%;
 }
 
 video {
@@ -9321,6 +9307,10 @@ Layout
   margin-top: 0;
 }
 
+.pb-0 {
+  padding-bottom: 0;
+}
+
 .pl-0 {
   padding-left: 0;
 }
@@ -9341,7 +9331,7 @@ Layout
 Images
 *******************************/
 
-.feature img {
+.fullsize > img {
   border-radius: 10%;
   margin: 0 auto;
   max-height: 100%;
@@ -9349,31 +9339,25 @@ Images
   padding: 20px 0;
 }
 
-.img-thumbnail {
+.thumbnail {
   border-radius: 10%;
+  margin-right: 0;
+}
+
+.thumbs {
+  max-height: 100%;
+  padding: 0 15px;
 }
 
 #vegas {
+  border-radius: 10%;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
   opacity: 0.6;
+  padding: 20px 0;
 }
 
 /*******************************
 Media Queries
 *******************************/
-
-@media (min-width: 692px) and (max-width: 893px) {
-  .feature img {
-    /* fix image */
-  }
-}
-
-@media (max-width: 893px) {
-  .feature,
-  .status {
-    padding-left: 15px;
-  }
-
-  .summary {
-    margin: 0 20px;
-  }
-}

@@ -4,15 +4,12 @@ General
 body {
 	font-family: 'Vollkorn', serif;	
 }
-
 h1, h2, h3, h4, h5, #logo {
 	font-family: 'Playball', cursive;
 }
-
 li {
 	list-style: none;
 }
-
 video {
 	height: 100%;
 	width: 100%;	
@@ -25,20 +22,12 @@ Main
 .about, .contact{
 	font-size: 1.2em;
 }
-
 .contact {
 	margin-top: 20px;
 }
-
-.expose {
-	display: none;
-	position: relative;
-}
-
 .glyphicon {
 	padding-right: 5px;
 }
-
 .listing {
 	background-color: #E6E6E6;
 	border-radius: 5%;
@@ -46,33 +35,19 @@ Main
 	padding-bottom: 40px;
 	padding-top: 10px;
 }
-
 .listing .row {
 	margin: 0;
 }
-
 .main {
 	padding-top: 60px;
 }
-
-.row {
-	max-width: 100%;
-}
-
 .specs {
 	font-size: 1.2em;
 }
-
-.summary {
-	max-height: 100%;
-	max-width: 100%;
-}
-
 video {
 	max-height: 80%;
 	max-width: 80%;
 }
-
 #welcome-btn {
 	margin-top: 15px;
 }
@@ -84,7 +59,6 @@ Footer
 .footer {
 	margin-top: 20px;
 }
-
 .footer li {
 	display: inline;
 	margin-right: 5px;
@@ -97,11 +71,9 @@ Text
 .available small {
 	text-shadow: 1px 1px #00B800;
 }
-
 .contingent small {
 	text-shadow: 1px 1px #FFFF00;
 }
-
 .sold small {
 	text-shadow: 1px 1px #E60000;
 }
@@ -118,6 +90,8 @@ Layout
 
 .mt-0 { margin-top: 0;}
 
+.pb-0 { padding-bottom: 0;}
+
 .pl-0 {	padding-left: 0; }
 
 .pr-0 {	padding-right: 0; }
@@ -130,38 +104,30 @@ Layout
 Images
 *******************************/
 
-.feature img {
+.fullsize > img {
 	border-radius: 10%;
 	margin: 0 auto;
 	max-height: 100%;
 	max-width: 100%;
 	padding: 20px 0;
 }
-
-.img-thumbnail {
+.thumbnail {
 	border-radius: 10%;
+	margin-right: 0;
 }
-
+.thumbs {
+	max-height: 100%;
+	padding: 0 15px;
+}
 #vegas {
+	border-radius: 10%;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
 	opacity: 0.6;
+	padding: 20px 0;
 }
 
 /*******************************
 Media Queries
 *******************************/
-
-@media (min-width: 692px) and (max-width: 893px) {
-	.feature img {
-		/* fix image */
-	}
-}
-
-@media (max-width: 893px) {
-	.feature, .status {
-		padding-left: 15px;
-	}
-	.summary {
-		margin: 0 20px;
-	}
-
-}

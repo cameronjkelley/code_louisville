@@ -4,7 +4,7 @@
 		"year": 1948,
 		"make": "Buick",
 		"model": "Roadmaster",
-		"mileage": "",
+		"mileage": ,
 		"engine": "320ci Fireball I8",
 		"trans": "2-Speed Automatic",
 		"exterior": "Cairo Cream",
@@ -13,6 +13,7 @@
 		"price": 64500,
 		"site": "http://www.hemmings.com/classifieds/dealer/buick/roadmaster/1741868.html",
 		"images": {
+			"alt": ["1948 Buick Roadmaster driver's side front three quarters", "1948 Buick Roadmaster straight on", "1948 Buick Roadmaster driver's side profile", "1948 Buick Roadmaster driver's side rear three quarters", "1948 Buick Roadmaster steering wheel", "1948 Buick Roadmaster dash and interior through passenger side door", "1948 Buick Roadmaster engine"],
 			"full": ["images/cars/full/rdmstr/rdmstr_1.jpg", "images/cars/full/rdmstr/rdmstr_2.jpg", "images/cars/full/rdmstr/rdmstr_3.jpg", "images/cars/full/rdmstr/rdmstr_4.jpg", "images/cars/full/rdmstr/rdmstr_5.jpg", "images/cars/full/rdmstr/rdmstr_6.jpg", "images/cars/full/rdmstr/rdmstr_7.jpg"],
 			"thumb": ["images/cars/thumb/rdmstr/rdmstr_1_thumb.jpg", "images/cars/thumb/rdmstr/rdmstr_2_thumb.jpg", "images/cars/thumb/rdmstr/rdmstr_3_thumb.jpg", "images/cars/thumb/rdmstr/rdmstr_4_thumb.jpg", "images/cars/thumb/rdmstr/rdmstr_5_thumb.jpg", "images/cars/thumb/rdmstr/rdmstr_6_thumb.jpg", "images/cars/thumb/rdmstr/rdmstr_7_thumb.jpg"]
 		},
@@ -23,7 +24,7 @@
 		"year": 1966,
 		"make": "Aston Martin",
 		"model": "DB6 Coupe",
-		"mileage": "",
+		"mileage": ,
 		"engine": "3995cc Tadek Marek I6",
 		"trans": "4-Speed Manual",
 		"exterior": "Fiesta Red",
@@ -32,6 +33,7 @@
 		"price": 449500,
 		"site": "http://www.hemmings.com/classifieds/dealer/aston-martin/db6/1728314.html",
 		"images": {
+			"alt": ["1966 Aston Martin DB6 driver's side front three quarters", "1966 Aston Martin DB6 straight on", "1966 Aston Martin DB6 driver's side profile", "1966 Aston Martin DB6 driver's side rear three quarters", "1966 Aston Martin DB6 steering wheel", "1966 Aston Martin DB6 dash and interior through passenger side door", "1966 Aston Martin DB6 engine"],
 			"full": ["images/cars/db6/full/db6_1.jpg", "images/cars/db6/full/db6_2.jpg", "images/cars/db6/full/db6_3.jpg", "images/cars/db6/full/db6_4.jpg", "images/cars/db6/full/db6_5.jpg", "images/cars/db6/full/db6_6.jpg", "images/cars/db6/full/db6_7.jpg", "images/cars/db6/full/db6_8.jpg"],
 			"thumb" : ["images/cars/db6/thumb/db6_1_thumb.jpg", "images/cars/db6/thumb/db6_2_thumb.jpg", "images/cars/db6/thumb/db6_3_thumb.jpg", "images/cars/db6/thumb/db6_4_thumb.jpg", "images/cars/db6/thumb/db6_5_thumb.jpg", "images/cars/db6/thumb/db6_6_thumb.jpg", "images/cars/db6/thumb/db6_7_thumb.jpg", "images/cars/db6/thumb/db6_8_thumb.jpg"]
 		},
@@ -51,6 +53,7 @@
 		"price": 836000,
 		"site": "http://www.eaglegb.com/cars/eagle-supersport-roadster-for-sale-ady881d#.VYAg2xNViko",
 		"images": {
+			"alt": ["1963 Eagle SuperSport driver's side front three quarters", "1963 Eagle SuperSport passenger's side profile", "1963 Eagle SuperSport passenger's side rear three quarters", "1963 Eagle SuperSport steering wheel", "11963 Eagle SuperSport dash and interior through passenger side door", "1963 Eagle SuperSport engine"],
 			"full": ["images/cars/jag_etype/full/jag_etype_1.jpg", "images/cars/jag_etype/full/jag_etype_2.jpg", "images/cars/jag_etype/full/jag_etype_3.jpg", "images/cars/jag_etype/full/jag_etype_4.jpg", "images/cars/jag_etype/full/jag_etype_5.jpg", "images/cars/jag_etype/full/jag_etype_6.jpg", "images/cars/jag_etype/full/jag_etype_7.jpg"],
 			"thumb": ["images/cars/jag_etype/thumb/jag_etype_1_thumb.jpg", "images/cars/jag_etype/thumb/jag_etype_2_thumb.jpg", "images/cars/jag_etype/thumb/jag_etype_3_thumb.jpg", "images/cars/jag_etype/thumb/jag_etype_4_thumb.jpg", "images/cars/jag_etype/thumb/jag_etype_5_thumb.jpg", "images/cars/jag_etype/thumb/jag_etype_6_thumb.jpg", "images/cars/jag_etype/thumb/jag_etype_7_thumb.jpg"]
 		},
@@ -67,9 +70,10 @@
 		"exterior": "White",
 		"interior": "Red",
 		"status": "Available",
-		"price": "Inquire",
+		"price": "",
 		"site": "http://www.hemmings.com/classifieds/dealer/mercedes-benz/300sl/1742976.html",
 		"images": {
+			"alt": ["1963 Mercedes Benz 300SL Roadster driver's side front three quarters", "1963 Mercedes Benz 300SL Roadster straight on", "1963 Mercedes Benz 300SL Roadster driver's side profile", "1963 Mercedes Benz 300SL Roadster driver's side rear three quarters", "1963 Mercedes Benz 300SL Roadster interior through driver's side door", "1963 Mercedes Benz 300SL Roadster dash and interior from above and behind", "1963 Mercedes Benz 300SL Roadster engine"],
 			"full": ["images/cars/mb300sl/full/mb300sl_1.jpg", "images/cars/mb300sl/full/mb300sl_2.jpg", "images/cars/mb300sl/full/mb300sl_3.jpg", "images/cars/mb300sl/full/mb300sl_4.jpg", "images/cars/mb300sl/full/mb300sl_5.jpg", "images/cars/mb300sl/full/mb300sl_6.jpg", "images/cars/mb300sl/full/mb300sl_7.jpg"],
 			"thumb": ["images/cars/mb300sl/thumb/mb300sl_1_thumb.jpg", "images/cars/mb300sl/thumb/mb300sl_2_thumb.jpg", "images/cars/mb300sl/thumb/mb300sl_3_thumb.jpg", "images/cars/mb300sl/thumb/mb300sl_4_thumb.jpg", "images/cars/mb300sl/thumb/mb300sl_5_thumb.jpg", "images/cars/mb300sl/thumb/mb300sl_6_thumb.jpg", "images/cars/mb300sl/thumb/mb300sl_7_thumb.jpg"]
 		},
@@ -80,15 +84,16 @@
 		"year": 1971,
 		"make": "Porsche",
 		"model": "911 Coupe",
-		"mileage": "",
+		"mileage": ,
 		"engine": "2.4L Flat-6",
 		"trans": "5-Speed Manual",
 		"exterior": "Olympic Blue",
 		"interior": "Red",
 		"status": "Contingent",
-		"price": "Inquire",
+		"price": "",
 		"site": "http://singervehicledesign.com/gallery/the-machines/san-diego/",
 		"images": {
+			"alt": ["1971 Porsche 911 Coupe driver's side front three quarters", "1971 Porsche 911 closer driver's side front three quarters", "1971 Porsche 911 Coupe passenger's side rear three quarters", "1971 Porsche 911 Coupe steering wheel and dash", "1971 Porsche 911 Coupe dash and interior through driver's side door", "1971 Porsche 911 Coupe engine"],
 			"full": ["images/cars/full/porsche911/full/porsche911_1.jpg", "images/cars/porsche911/full/porsche911_2.jpg", "images/cars/porsche911/full/porsche911_3.jpg", "images/cars/porsche911/full/porsche911_4.jpg", "images/cars/porsche911/full/porsche911_5.jpg", "images/cars/porsche911/full/porsche911_6.jpg"],
 			"thumb": ["images/cars/porsche911/thumb/porsche911_1_thumb.jpg", "images/cars/porsche911/thumb/porsche911_2_thumb.jpg", "images/cars/porsche911/thumb/porsche911_3_thumb.jpg", "images/cars/porsche911/thumb/porsche911_4_thumb.jpg", "images/cars/porsche911/thumb/porsche911_5_thumb.jpg", "images/cars/porsche911/thumb/porsche911_6_thumb.jpg"]
 		},
@@ -99,7 +104,7 @@
 		"year": 1964,
 		"make": "Ferrari",
 		"model": "250 GT/L Berlinetta 'Lusso'",
-		"mileage": "",
+		"mileage": ,
 		"engine": "2953cc 'Colombo' V12 60°",
 		"trans": "5-Speed Manual",
 		"exterior": "Rosso Italver",
@@ -108,6 +113,7 @@
 		"price": 1106702,
 		"site": "http://www.rmauctions.com/lots/lot.cfm?lot_id=1059492",
 		"images": {
+			"alt": ["1964 Ferrari 250 GT/L Berlinetta 'Lusso' passenger's side front three quarters", "1964 Ferrari 250 GT/L Berlinetta 'Lusso' straight on", "1964 Ferrari 250 GT/L Berlinetta 'Lusso' passenger's side rear three quarters", "1964 Ferrari 250 GT/L Berlinetta 'Lusso' passenger's side profile", "1964 Ferrari 250 GT/L Berlinetta 'Lusso' steering wheel and dash", "1964 Ferrari 250 GT/L Berlinetta 'Lusso' interior through driver's side door", "1964 Ferrari 250 GT/L Berlinetta 'Lusso' engine"],
 			"full": ["images/cars/full/f250/f250_1.jpg", "images/cars/full/f250/f250_2.jpg", "images/cars/full/f250/f250_3.jpg", "images/cars/full/f250/f250_4.jpg", "images/cars/full/f250/f250_5.jpg", "images/cars/full/f250/f250_6.jpg", "images/cars/full/f250/f250_7.jpg"],
 			"thumb": ["images/cars/thumb/f250/f250_1_thumb.jpg", "images/cars/thumb/f250/f250_2_thumb.jpg", "images/cars/thumb/f250/f250_3_thumb.jpg", "images/cars/thumb/f250/f250_4_thumb.jpg", "images/cars/thumb/f250/f250_5_thumb.jpg", "images/cars/thumb/f250/f250_6_thumb.jpg", "images/cars/thumb/f250/f250_7_thumb.jpg"]
 		},
