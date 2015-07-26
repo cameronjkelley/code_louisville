@@ -20,13 +20,13 @@
 			</div>
 			<!-- Slick Feature Image -->
 			<div class="full col-md-6 col-md-pull-6">
-				<div class="fullsize slick" ng-repeat="pic in car.images.full" ng-repeat="alt in car.images.alt"><img ng-src="images/cars/full/{{car.id}}/{{pic}}" alt="{{alt}}"></img></div>
+				<div class="fullsize slick" ng-repeat="pic in car.images.full" ng-repeat="alt in car.images.alt"><img ng-src="images/cars/full/{{car.id}}/{{pic}}"></img></div>
 			</div>
 		</div>
 		<!-- Thumbnails -->
 		<div class="row">
-			<div class="thumbs hidden-xs" ng-repeat="pic in car.images.full" ng-repeat="thumb in car.images.thumbs" ng-repeat="alt in car.images.alt">
-				<a ng-href="images/cars/full/{{car.id}}/{{pic}}" data-lightbox="{{car.id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="images/cars/thumb/{{car.id}}/{{thumb}}" alt="{{alt}}"></img></a>
+			<div class="thumbs hidden-xs" ng-repeat="x in car.images">
+				<a ng-href="images/cars/full/{{car.id}}/{{x.full}}" data-lightbox="{{car.id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="images/cars/thumb/{{car.id}}/{{x.thumb}}"></img></a>
 			</div>
 		</div>
 	</div>
