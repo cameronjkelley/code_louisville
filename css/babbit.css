@@ -28,6 +28,9 @@ Main
 .glyphicon {
 	padding-right: 5px;
 }
+.jumbotron {
+	padding-top: 20px;
+}
 .listing {
 	background-color: #E6E6E6;
 	border-radius: 5%;
@@ -76,6 +79,12 @@ Text
 }
 .sold small {
 	text-shadow: 1px 1px #E60000;
+}
+#welcome h1 {
+	margin-top: 5px;
+}
+#welcome h2 {
+	font-size: 2.5em;
 }
 
 /*******************************
@@ -131,3 +140,12 @@ Images
 /*******************************
 Media Queries
 *******************************/
+
+@media (max-width: 623px) {
+	#welcome h2 {
+		font-size: 1.5em;
+	}
+	.jumbotron p {
+		font-size: 1em;
+	}
+}
