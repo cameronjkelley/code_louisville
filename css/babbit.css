@@ -77,6 +77,12 @@ Text
 .sold small {
 	text-shadow: 1px 1px #E60000;
 }
+#welcome h1 {
+	margin-top: 5px;
+}
+#welcome h2 {
+	font-size: 2.5em;
+}
 
 /*******************************
 Layout
@@ -131,3 +137,9 @@ Images
 /*******************************
 Media Queries
 *******************************/
+
+@media (max-width: 623px) {
+	#welcome h2 {
+		font-size: 1.5em;
+	}
+}
