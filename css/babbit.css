@@ -28,6 +28,9 @@ Main
 .glyphicon {
 	padding-right: 5px;
 }
+.jumbotron {
+	padding-top: 20px;
+}
 .listing {
 	background-color: #E6E6E6;
 	border-radius: 5%;
@@ -141,5 +144,8 @@ Media Queries
 @media (max-width: 623px) {
 	#welcome h2 {
 		font-size: 1.5em;
+	}
+	.jumbotron p {
+		font-size: 1em;
 	}
 }
