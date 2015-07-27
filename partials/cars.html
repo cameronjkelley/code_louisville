@@ -4,7 +4,7 @@
 	</div>
 
 	<!-- Listing -->
-	<div class="listing" ng-controller="CarCtrl" ng-repeat="car in cars">
+	<div class="listing mt-0" ng-controller="CarCtrl" ng-repeat="car in cars">
 		<div class="row">
 			<div class="summary " + {{car.status}} + " col-md-6 col-md-push-6">
 				<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
