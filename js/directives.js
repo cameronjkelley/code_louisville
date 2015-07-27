@@ -4,7 +4,7 @@ var babbitAppDirectives = angular.module("babbitAppDirectives", []);
 
 babbitAppDirectives.directive("lightbox", function() {
 	return {
-		restrict: 'A',
+		restrict: 'E',
 		link: function(scope, element, attrs) {
 			$(element).lightbox(scope.$eval(attrs.data-lightbox));
 		}
