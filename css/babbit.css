@@ -131,3 +131,12 @@ Images
 /*******************************
 Media Queries
 *******************************/
+
+@media (max-width: 623px) {
+	#welcome h2 {
+		font-size: 1.65em;
+	}
+	.jumbotron p {
+		font-size: 1em;
+	}
+}
