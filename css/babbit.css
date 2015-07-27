@@ -41,6 +41,9 @@ Main
 .listing .row {
 	margin: 0;
 }
+.listing-thumbs {
+	padding-bottom: 20px;
+}
 .main {
 	padding-top: 60px;
 }
