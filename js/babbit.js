@@ -9,18 +9,18 @@ $(document).ready(function() {
 		$(this).get(0).play();
 	});
 
-	// if ($(window).width() <= 768) {
-	// 	$(".slick").slick({
-	// 		infinite: true
-	// 	});
-	// }
+	if ($(window).width() <= 768) {
+		$(".slick").slick({
+			infinite: true
+		});
+	}
 
-	// $(window).resize(function() {
-	// 	if ($(window).width() <= 768) {
-	// 		$(".slick").slick({
-	// 			infinite: true
-	// 		});
-	// 	}
-	// });
+	$(window).resize(function() {
+		if ($(window).width() <= 768) {
+			$(".slick").slick({
+				infinite: true
+			});
+		}
+	});
 
 });
