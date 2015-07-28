@@ -10,7 +10,13 @@ var concat = require("gulp-concat"),
 	uglify = require("gulp-uglify");
 
 gulp.task("concatCss", function() {
-	return gulp.src(["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/lightbox.css", "css/babbit.css"])
+	return gulp.src([
+		"css/bootstrap.min.css", 
+		"css/bootstrap-theme.min.css", 
+		"css/lightbox.css", 
+		"css/slick.css", 
+		"css/babbit.css"
+		])
 	    .pipe(maps.init())
 		.pipe(cssConcat("main.css"))
 		.pipe(maps.write("./"))
@@ -18,7 +24,17 @@ gulp.task("concatCss", function() {
 });
 
 gulp.task("concatScripts", function() {
-  return gulp.src(["js/jquery-1.11.3.min.js", "js/bootstrap.min.js", "js/lightbox.min.js"])
+  return gulp.src([
+  	"js/jquery-1.11.3.min.js", 
+  	"js/bootstrap.min.js", 
+  	"node_modules/angular/angular.min.js", 
+  	"node_modules/angular-route/angular-route.min.js", 
+  	"js/lightbox.min.js", 
+  	"js/app.js", 
+  	"js/controllers.js", 
+  	"js/directives.js", 
+  	"js/babbit.js"
+  	])
 	    .pipe(maps.init())
 		.pipe(concat("main.js"))
 		.pipe(maps.write("./"))
@@ -48,7 +64,7 @@ gulp.task("clean", function() {
 });
 
 gulp.task("build", ["minifyCss", "minifyScripts"], function() {
-	return gulp.src(["css/main.*.*", "css/ajax-loader.gif", "js/main.*.*", "cars.html", "contact.html", "index.html", "fonts/**", "images/**"], {base: "./"})
+	return gulp.src(["css/main.*.*", "css/ajax-loader.gif", "js/main.*.*", "partials/**", "index.html", "fonts/**", "images/**"], {base: "./"})
 				.pipe(gulp.dest("dist"));
 });
 
