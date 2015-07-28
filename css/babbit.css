@@ -47,13 +47,13 @@ Main
 .main {
 	padding-top: 60px;
 }
-#welcome-btn {
-	display: none;
-	margin-top: 15px;
-}
 #welcome h1 {
 	margin-top: 5px;
 }
+#welcome-btn {
+	margin-top: 20px;
+}
+
 /*******************************
 Footer
 *******************************/
@@ -96,14 +96,8 @@ Text
 .specs {
 	font-size: 1.2em;
 }
-#welcome h1 {
-	margin-top: 5px;
-}
 #welcome h2 {
 	font-size: 2.5em;
-}
-#welcome-btn {
-	margin-top: 20px;
 }
 
 /*******************************
