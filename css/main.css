@@ -9416,6 +9416,10 @@ Text
   font-size: 1.2em;
 }
 
+#welcome h1 {
+  margin-top: 5px;
+}
+
 #welcome h2 {
   font-size: 2.5em;
 }
