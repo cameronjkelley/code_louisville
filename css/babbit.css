@@ -12,7 +12,10 @@ li {
 }
 video {
 	height: 100%;
-	width: 100%;	
+	width: 100%;
+
+	max-height: 80%;
+	max-width: 80%;
 }
 
 /*******************************
@@ -49,10 +52,6 @@ Main
 }
 .specs {
 	font-size: 1.2em;
-}
-video {
-	max-height: 80%;
-	max-width: 80%;
 }
 #welcome-btn {
 	margin-top: 15px;
@@ -150,5 +149,26 @@ Media Queries
 	}
 	.jumbotron p {
 		font-size: 1em;
+	}
+}
+
+@media (max-width: 767px) {
+	#info {
+		background: url("../images/rain_man_suits.jpg") no-repeat;
+		background-color: rgba(0, 0, 0, 0.3);
+		background-size: cover;
+		color: #fff;
+		text-shadow: 1px 1px gray;
+	}
+}
+
+@media (min-width: 768px) {
+	#info {
+		background: url("../images/charlie_ray_driving.jpg") no-repeat;
+		background-color: rgba(0, 0, 0, 0.3);
+		background-position: 50% 50%;		
+		background-size: cover;
+		color: #fff;
+		text-shadow: 1px 1px #000;
 	}
 }
