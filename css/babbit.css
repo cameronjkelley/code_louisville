@@ -99,6 +99,9 @@ Text
 #welcome h2 {
 	font-size: 2.5em;
 }
+#welcome-btn {
+	margin-top: 20px;
+}
 
 /*******************************
 Layout
