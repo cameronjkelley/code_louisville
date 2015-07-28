@@ -12,54 +12,53 @@ li {
 }
 video {
 	height: 100%;
-	width: 100%;	
+	width: 100%;
+
+	max-height: 80%;
+	max-width: 80%;
 }
 
 /*******************************
 Main
 *******************************/
 
-.about, .contact{
-	font-size: 1.2em;
-}
-.contact {
-	margin-top: 20px;
-}
 .glyphicon {
 	padding-right: 5px;
+}
+#info {
+	border-radius: 10px;
 }
 .jumbotron {
 	padding-top: 20px;
 }
 .listing {
 	background-color: #E6E6E6;
-	border-radius: 5%;
+	border-radius: 10px;
 	margin-bottom: 40px;
 	padding-bottom: 20px;
+	padding-top: 10px;
 }
 .listing .row {
 	margin: 0;
 }
+.listing-thumbs {
+	padding-bottom: 20px;
+}
 .main {
 	padding-top: 60px;
-}
-.specs {
-	font-size: 1.2em;
-}
-video {
-	max-height: 80%;
-	max-width: 80%;
 }
 #welcome-btn {
 	margin-top: 15px;
 }
-
+#welcome h1 {
+	margin-top: 5px;
+}
 /*******************************
 Footer
 *******************************/
 
 .footer {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .footer li {
 	display: inline;
@@ -70,17 +69,31 @@ Footer
 Text
 *******************************/
 
+.about, .contact{
+	font-size: 1.2em;
+}
 .available small {
 	text-shadow: 1px 1px #00B800;
+}
+.contact a {
+	color: #fff;
 }
 .contingent small {
 	text-shadow: 1px 1px #FFFF00;
 }
+#info {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
+#info a {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+}
 .sold small {
 	text-shadow: 1px 1px #E60000;
 }
-#welcome h1 {
-	margin-top: 5px;
+.specs {
+	font-size: 1.2em;
 }
 #welcome h2 {
 	font-size: 2.5em;
@@ -120,20 +133,12 @@ Images
 	padding: 20px 0;
 }
 .thumbnail {
-	border-radius: 10%;
+	border-radius: 10px;
 	margin-right: 0;
 }
 .thumbs {
 	max-height: 100%;
 	padding: 0 15px;
-}
-#vegas {
-	border-radius: 10%;
-	margin: 0 auto;
-	max-height: 100%;
-	max-width: 100%;
-	opacity: 0.6;
-	padding: 20px 0;
 }
 
 /*******************************
@@ -146,5 +151,21 @@ Media Queries
 	}
 	.jumbotron p {
 		font-size: 1em;
+	}
+}
+
+@media (max-width: 767px) {
+	#info {
+		background: url("../images/rain_man_suits.jpg") no-repeat;
+		background-size: cover;
+		margin-top: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	#info {
+		background: url("../images/charlie_ray_driving.jpg") no-repeat;
+		background-position: 50% 50%;		
+		background-size: cover;
 	}
 }
