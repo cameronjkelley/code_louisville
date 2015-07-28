@@ -9333,6 +9333,7 @@ Main
 
 .jumbotron {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .listing {
@@ -9360,7 +9361,7 @@ Main
 }
 
 #welcome-btn {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 /*******************************

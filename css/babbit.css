@@ -30,6 +30,7 @@ Main
 }
 .jumbotron {
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .listing {
 	background-color: #E6E6E6;
@@ -51,7 +52,7 @@ Main
 	margin-top: 5px;
 }
 #welcome-btn {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 /*******************************
