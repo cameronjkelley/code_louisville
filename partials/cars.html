@@ -20,7 +20,7 @@
 				<div class="btn-group">
 					<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Cars <span class="caret"></span></button>
 					<ul class="dropdown-menu">
-						<li ng-repeat="car in cars"><a href="#{{car.id}}">{{car.make}} {{car.model}}</a></li>
+						<li ng-repeat="car in cars"><a ng-href="#{{car.id}}">{{car.make}} {{car.model}}</a></li>
 					</ul>
 				</div>
 			</div>
