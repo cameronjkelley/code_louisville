@@ -55,7 +55,8 @@ gulp.task("minifyScripts", ["concatScripts"], function() {
 });
 
 gulp.task("watchFiles", function() {
-	gulp.watch("css/main.css", ["minifyCss"]);
+	gulp.watch("css/babbit.css", ["minifyCss"]);
+	gulp.watch(["js/babbit.js", "js/app.js", "js/controllers.js", "js/directives.js"], ["minifyScripts"]);
 });
 
 gulp.task("clean", function() {
