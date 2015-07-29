@@ -63,7 +63,7 @@ gulp.task("clean", function() {
 });
 
 gulp.task("build", ["minifyCss", "minifyScripts"], function() {
-	return gulp.src(["css/main.*.*", "css/ajax-loader.gif", "js/main.*.*", "partials/**", "index.html", "fonts/**", "images/**"], {base: "./"})
+	return gulp.src(["css/main.*.*", "css/ajax-loader.gif", "js/main.*.*", "partials/**", "index.html", "fonts/**", "images/**", "cars.json", "README.md"], {base: "./"})
 				.pipe(gulp.dest("dist"));
 });
 
