@@ -162,6 +162,9 @@ Media Queries
 		background-size: cover;
 		margin-top: 10px;
 	}
+	/*.navbar-nav > li > a {
+		float: right;
+	}*/
 }
 
 @media (min-width: 768px) {
