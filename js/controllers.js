@@ -7,3 +7,12 @@ babbitAppControllers.controller("CarCtrl", ["$scope", "$http", function($scope, 
 		$scope.cars = data;
 	});
 }]);
+
+babbitAppControllers.controller("ScrollCtrl", ["$scope", "$location", "$anchorScroll", function($scope, $location, $anchorScroll) {
+	$scope.scrollTo = function(id) {
+		var old = $location.hash();
+		$location.hash(id);
+		$anchorScroll();
+		$location.hash(old);
+	}
+}]);

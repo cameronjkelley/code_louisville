@@ -368,13 +368,22 @@ babbitAppControllers.controller("CarCtrl", ["$scope", "$http", function($scope, 
 		$scope.cars = data;
 	});
 }]);
+
+babbitAppControllers.controller("ScrollCtrl", ["$scope", "$location", "$anchorScroll", function($scope, $location, $anchorScroll) {
+	$scope.scrollTo = function(id) {
+		var old = $location.hash();
+		$location.hash(id);
+		$anchorScroll();
+		$location.hash(old);
+	}
+}]);
 "use strict";
 
 var babbitAppDirectives = angular.module("babbitAppDirectives", []);
 
 babbitAppDirectives.directive("lightbox", function() {
 	return {
-		restrict: 'E',
+		restrict: "E",
 		link: function(scope, element, attrs) {
 			$(element).lightbox(scope.$eval(attrs.data-lightbox));
 		}
