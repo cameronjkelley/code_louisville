@@ -10,7 +10,8 @@
 				<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
 				<ul class="specs pl-0">
 					<li>Engine: {{car.engine}}</li>
-					<li>Transmission: {{car.transmission}}</li>
+					<li>Transmission: {{car.trans}}</li>
+					<li ng-hide="car.mileage===null" class="ng-hide">Mileage: {{car.mileage}}</li>
 					<li>Exterior: {{car.interior}}</li>
 					<li>Interior: {{car.exterior}}</li>
 					<li>Price: {{car.price}}</li>
@@ -20,7 +21,7 @@
 				<div class="btn-group">
 					<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Cars <span class="caret"></span></button>
 					<ul class="dropdown-menu">
-						<li ng-repeat="car in cars"><a ng-click="scrollTo('car.id')">{{car.make}} {{car.model}}</a></li>
+						<li ng-repeat="car in cars"><a ng-click="scrollTo('{{car.id}}')">{{car.make}} {{car.model}}</a></li>
 					</ul>
 				</div>
 			</div>

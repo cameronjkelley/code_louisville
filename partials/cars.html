@@ -10,7 +10,8 @@
 				<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
 				<ul class="specs pl-0">
 					<li>Engine: {{car.engine}}</li>
-					<li>Transmission: {{car.transmission}}</li>
+					<li>Transmission: {{car.trans}}</li>
+					<li ng-hide="car.mileage===null" class="ng-hide">Mileage: {{car.mileage}}</li>
 					<li>Exterior: {{car.interior}}</li>
 					<li>Interior: {{car.exterior}}</li>
 					<li>Price: {{car.price}}</li>
