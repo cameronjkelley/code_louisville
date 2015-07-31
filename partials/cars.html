@@ -4,10 +4,11 @@
 	</div>
 
 	<!-- Listing -->
-	<div class="listing mt-0 pt-0" ng-controller="CarCtrl" ng-repeat="car in cars">
+	<div class="listing mt-0 pt-0" ng-controller="CarCtrl" id="car.id">
 		<div class="row">
 			<div class="summary {{car.status}} col-md-6 col-md-push-6">
 				<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
+				<p>{{car.tagline}}</p>
 				<ul class="specs pl-0">
 					<li>Engine: {{car.engine}}</li>
 					<li>Transmission: {{car.trans}}</li>
@@ -16,14 +17,7 @@
 					<li>Interior: {{car.interior}}</li>
 					<li>Price: {{car.price}}</li>
 				</ul>
-				<p>{{car.tagline}}</p>
 				<a ng-href="{{car.site}}" class="btn btn-primary" target="_blank">More Information</a>
-				<div class="btn-group">
-					<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Cars <span class="caret"></span></button>
-					<ul class="dropdown-menu">
-						<li ng-repeat="car in cars"><a ng-click="scrollTo('{{car.id}}')">{{car.make}} {{car.model}}</a></li>
-					</ul>
-				</div>
 			</div>
 			<!-- Slick Feature Image -->
 			<div class="full col-md-6 col-md-pull-6">

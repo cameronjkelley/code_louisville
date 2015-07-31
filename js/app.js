@@ -4,15 +4,15 @@ var babbitApp = angular.module('babbitApp', [
 	'ngRoute',
 	'babbitAppControllers',
 	'babbitAppDirectives'
-]);
+])
 
-babbitApp.config(["$routeProvider",
+.config(["$routeProvider",
 	function($routeProvider) {
 		$routeProvider.
 		when("/home", {
 			templateUrl: "partials/home.html"
 		}).
-		when("/cars", {
+		when("/cars/:carId", {
 			templateUrl: "partials/cars.html",
 			controller: "CarCtrl"
 		}).
@@ -20,7 +20,7 @@ babbitApp.config(["$routeProvider",
 			templateUrl: "partials/contact.html"
 		}).
 		otherwise({
-			redirectTo: "partials/home.html"
+			redirectTo: "/home"
 		});
 	}
 ]);

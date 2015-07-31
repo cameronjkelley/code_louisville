@@ -21,7 +21,9 @@ video {
 /*******************************
 Main
 *******************************/
-
+.contact a {
+	text-decoration: underline;
+}
 .glyphicon {
 	padding-right: 5px;
 }
