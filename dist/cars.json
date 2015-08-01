@@ -16,7 +16,7 @@
 			"full": ["db6_1.jpg", "db6_2.jpg", "db6_4.jpg", "db6_6.jpg", "db6_7.jpg", "db6_8.jpg"],
 			"thumbs" : ["db6_1.jpg", "db6_2.jpg", "db6_4.jpg", "db6_6.jpg", "db6_7.jpg", "db6_8.jpg"]
 		},
-		"tagline": "James Bond owns one and so should you. Formal wear and ejection seat not included."
+		"tagline": "James Bond owns one and even without a license to kill so can you. Formal wear and ejection seat not included."
 	},
 	{
 		"id": "rdmstr",
@@ -35,7 +35,7 @@
 			"full": ["rdmstr_1.jpg", "rdmstr_2.jpg", "rdmstr_4.jpg", "rdmstr_5.jpg", "rdmstr_6.jpg", "rdmstr_7.jpg"],
 			"thumbs": ["rdmstr_1.jpg", "rdmstr_2.jpg", "rdmstr_4.jpg", "rdmstr_5.jpg", "rdmstr_6.jpg", "rdmstr_7.jpg"]
 		},
-		"tagline": "True to its name, the Roadmaster is perfect for Sunday drives, in or out of the driveway. But not on Mondays, definitely not on Mondays."
+		"tagline": "The Roadmaster is perfect for Sunday drives, in or out of the driveway. But not on Mondays, definitely not on Mondays."
 	},
 	{
 		"id": "f250",
@@ -67,7 +67,7 @@
 		"exterior": "Opalescent Silver Blue",
 		"interior": "Biscuit",
 		"status": "available",
-		"price": "$836,000",
+		"price": "£535,000",
 		"site": "http://www.eaglegb.com/cars/eagle-supersport-roadster-for-sale-ady881d#.VYAg2xNViko",
 		"images": {
 			"full": ["jag_etype_1.jpg", "jag_etype_2.jpg", "jag_etype_3.jpg", "jag_etype_4.jpg", "jag_etype_5.jpg", "jag_etype_6.jpg"],
@@ -111,6 +111,6 @@
 			"full": ["porsche911_1.jpg", "porsche911_2.jpg", "porsche911_3.jpg", "porsche911_4.jpg", "porsche911_5.jpg", "porsche911_6.jpg"],
 			"thumbs": ["porsche911_1.jpg", "porsche911_2.jpg", "porsche911_3.jpg", "porsche911_4.jpg", "porsche911_5.jpg", "porsche911_6.jpg"]
 		},
-		"tagline": "The consumate performer, the Porsche 911 has barely changed in more than 50 years of production. This Singer designed 911 has been meticulously and beautifully detailed, restoring and highlighting its beauty while also strengthening its racing heart."
+		"tagline": "The consumate performer, the Porsche 911 has barely changed in more than 50 years of production. This Singer designed 911 has been meticulously restored, highlighting its beauty while also strengthening its racing heart."
 	}
 ]
