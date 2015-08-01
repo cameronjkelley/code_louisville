@@ -50,6 +50,9 @@ Main
 .main {
 	padding-top: 60px;
 }
+.page-header {
+	margin-top: 20px;
+}
 #welcome h1 {
 	margin-top: 5px;
 }
@@ -63,6 +66,7 @@ Footer
 
 .footer {
 	margin-top: 10px;
+	padding-top: 10px;
 }
 .footer li {
 	display: inline;
@@ -76,14 +80,16 @@ Text
 .about, .contact{
 	font-size: 1.2em;
 }
-.available small {
+.available {
 	text-shadow: 1px 1px #00B800;
+	text-transform: capitalize;
 }
 .contact a {
 	color: #fff;
 }
-.contingent small {
+.contingent {
 	text-shadow: 1px 1px #FFFF00;
+	text-transform: capitalize;
 }
 #info {
 	color: #fff;
@@ -93,11 +99,15 @@ Text
 	color: #fff;
 	text-shadow: 1px 1px #000;
 }
-.sold small {
+.sold {
 	text-shadow: 1px 1px #E60000;
+	text-transform: capitalize;
 }
 .specs {
 	font-size: 1.2em;
+}
+.summary p {
+	font-size: 1.25em;
 }
 #welcome h2 {
 	font-size: 2.5em;

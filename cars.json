@@ -9,7 +9,7 @@
 		"trans": "2-Speed Automatic",
 		"exterior": "Cairo Cream",
 		"interior": "Black",
-		"status": "Available",
+		"status": "available",
 		"price": "$64,500",
 		"site": "http://www.hemmings.com/classifieds/dealer/buick/roadmaster/1741868.html",
 		"images": {
@@ -28,7 +28,7 @@
 		"trans": "4-Speed Manual",
 		"exterior": "Fiesta Red",
 		"interior": "Biege",
-		"status": "Available",
+		"status": "available",
 		"price": "$449,500",
 		"site": "http://www.hemmings.com/classifieds/dealer/aston-martin/db6/1728314.html",
 		"images": {
@@ -47,14 +47,14 @@
 		"trans": "5-Speed Manual",
 		"exterior": "Opalescent Silver Blue",
 		"interior": "Biscuit",
-		"status": "Available",
+		"status": "available",
 		"price": "$836,000",
 		"site": "http://www.eaglegb.com/cars/eagle-supersport-roadster-for-sale-ady881d#.VYAg2xNViko",
 		"images": {
 			"full": ["jag_etype_1.jpg", "jag_etype_2.jpg", "jag_etype_3.jpg", "jag_etype_4.jpg", "jag_etype_5.jpg", "jag_etype_6.jpg"],
 			"thumbs": ["jag_etype_1.jpg", "jag_etype_2.jpg", "jag_etype_3.jpg", "jag_etype_4.jpg", "jag_etype_5.jpg", "jag_etype_6.jpg"]
 		},
-		"tagline": "Enzo Ferrari called the Jaguar E-Type 'the most beautiful car ever made'. This Eagle built SuperSport enhances the XKE's 'natural' beauty and endows it with some serious brawn."
+		"tagline": "Enzo Ferrari called the Jaguar E-Type 'the most beautiful car ever made'. This Eagle built SuperSport has enhanced the XKE's 'natural' beauty and endowed it with some serious brawn."
 	},
 	{
 		"id": "mb300sl",
@@ -66,7 +66,7 @@
 		"trans": "4-Speed Manual",
 		"exterior": "White",
 		"interior": "Red",
-		"status": "Available",
+		"status": "available",
 		"price": "Inquire",
 		"site": "http://www.hemmings.com/classifieds/dealer/mercedes-benz/300sl/1742976.html",
 		"images": {
@@ -85,7 +85,7 @@
 		"trans": "5-Speed Manual",
 		"exterior": "Olympic Blue",
 		"interior": "Red",
-		"status": "Contingent",
+		"status": "contingent",
 		"price": "Inquire",
 		"site": "http://singervehicledesign.com/gallery/the-machines/san-diego/",
 		"images": {
@@ -104,7 +104,7 @@
 		"trans": "5-Speed Manual",
 		"exterior": "Rosso Italver",
 		"interior": "Cuoio",
-		"status": "Sold",
+		"status": "sold",
 		"price": "$1,106,702",
 		"site": "http://www.rmauctions.com/lots/lot.cfm?lot_id=1059492",
 		"images": {
