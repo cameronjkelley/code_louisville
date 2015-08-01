@@ -1,24 +1,5 @@
 [
 	{
-		"id": "rdmstr",
-		"year": 1948,
-		"make": "Buick",
-		"model": "Roadmaster",
-		"mileage": null,
-		"engine": "320ci Fireball I8",
-		"trans": "2-Speed Automatic",
-		"exterior": "Cairo Cream",
-		"interior": "Black",
-		"status": "Available",
-		"price": "$64,500",
-		"site": "http://www.hemmings.com/classifieds/dealer/buick/roadmaster/1741868.html",
-		"images": {
-			"full": ["rdmstr_1.jpg", "rdmstr_2.jpg", "rdmstr_4.jpg", "rdmstr_5.jpg", "rdmstr_6.jpg", "rdmstr_7.jpg"],
-			"thumbs": ["rdmstr_1.jpg", "rdmstr_2.jpg", "rdmstr_4.jpg", "rdmstr_5.jpg", "rdmstr_6.jpg", "rdmstr_7.jpg"]
-		},
-		"tagline": "True to its name, the Roadmaster is perfect for Sunday drives, in or out of the driveway. But not on Mondays, definitely not on Mondays."
-	},
-	{
 		"id": "db6",
 		"year": 1966,
 		"make": "Aston Martin",
@@ -28,7 +9,7 @@
 		"trans": "4-Speed Manual",
 		"exterior": "Fiesta Red",
 		"interior": "Biege",
-		"status": "Available",
+		"status": "available",
 		"price": "$449,500",
 		"site": "http://www.hemmings.com/classifieds/dealer/aston-martin/db6/1728314.html",
 		"images": {
@@ -36,6 +17,44 @@
 			"thumbs" : ["db6_1.jpg", "db6_2.jpg", "db6_4.jpg", "db6_6.jpg", "db6_7.jpg", "db6_8.jpg"]
 		},
 		"tagline": "James Bond owns one and so should you. Formal wear and ejection seat not included."
+	},
+	{
+		"id": "rdmstr",
+		"year": 1948,
+		"make": "Buick",
+		"model": "Roadmaster",
+		"mileage": null,
+		"engine": "320ci Fireball I8",
+		"trans": "2-Speed Automatic",
+		"exterior": "Cairo Cream",
+		"interior": "Black",
+		"status": "available",
+		"price": "$64,500",
+		"site": "http://www.hemmings.com/classifieds/dealer/buick/roadmaster/1741868.html",
+		"images": {
+			"full": ["rdmstr_1.jpg", "rdmstr_2.jpg", "rdmstr_4.jpg", "rdmstr_5.jpg", "rdmstr_6.jpg", "rdmstr_7.jpg"],
+			"thumbs": ["rdmstr_1.jpg", "rdmstr_2.jpg", "rdmstr_4.jpg", "rdmstr_5.jpg", "rdmstr_6.jpg", "rdmstr_7.jpg"]
+		},
+		"tagline": "True to its name, the Roadmaster is perfect for Sunday drives, in or out of the driveway. But not on Mondays, definitely not on Mondays."
+	},
+	{
+		"id": "f250",
+		"year": 1964,
+		"make": "Ferrari",
+		"model": "250 GT/L Berlinetta 'Lusso'",
+		"mileage": null,
+		"engine": "2953cc 'Colombo' V12 60°",
+		"trans": "5-Speed Manual",
+		"exterior": "Rosso Italver",
+		"interior": "Cuoio",
+		"status": "sold",
+		"price": "$1,106,702",
+		"site": "http://www.rmauctions.com/lots/lot.cfm?lot_id=1059492",
+		"images": {
+			"full": ["f250_1.jpg", "f250_2.jpg", "f250_3.jpg", "f250_5.jpg", "f250_6.jpg", "f250_7.jpg"],
+			"thumbs": ["f250_1.jpg", "f250_2.jpg", "f250_3.jpg", "f250_5.jpg", "f250_6.jpg", "f250_7.jpg"]
+		},
+		"tagline": "Both Eric Clapton and Steve McQueen were 'Lusso' owners. You're cool too, right? Well, you can always be cooler."
 	},
 	{
 		"id": "jag_etype",
@@ -47,14 +66,14 @@
 		"trans": "5-Speed Manual",
 		"exterior": "Opalescent Silver Blue",
 		"interior": "Biscuit",
-		"status": "Available",
+		"status": "available",
 		"price": "$836,000",
 		"site": "http://www.eaglegb.com/cars/eagle-supersport-roadster-for-sale-ady881d#.VYAg2xNViko",
 		"images": {
 			"full": ["jag_etype_1.jpg", "jag_etype_2.jpg", "jag_etype_3.jpg", "jag_etype_4.jpg", "jag_etype_5.jpg", "jag_etype_6.jpg"],
 			"thumbs": ["jag_etype_1.jpg", "jag_etype_2.jpg", "jag_etype_3.jpg", "jag_etype_4.jpg", "jag_etype_5.jpg", "jag_etype_6.jpg"]
 		},
-		"tagline": "Enzo Ferrari called the Jaguar E-Type 'the most beautiful car ever made'. This Eagle built SuperSport enhances the XKE's 'natural' beauty and endows it with some serious brawn."
+		"tagline": "Enzo Ferrari called the Jaguar E-Type 'the most beautiful car ever made'. This Eagle built SuperSport has enhanced the XKE's 'natural' beauty and endowed it with some serious brawn."
 	},
 	{
 		"id": "mb300sl",
@@ -66,7 +85,7 @@
 		"trans": "4-Speed Manual",
 		"exterior": "White",
 		"interior": "Red",
-		"status": "Available",
+		"status": "available",
 		"price": "Inquire",
 		"site": "http://www.hemmings.com/classifieds/dealer/mercedes-benz/300sl/1742976.html",
 		"images": {
@@ -85,7 +104,7 @@
 		"trans": "5-Speed Manual",
 		"exterior": "Olympic Blue",
 		"interior": "Red",
-		"status": "Contingent",
+		"status": "contingent",
 		"price": "Inquire",
 		"site": "http://singervehicledesign.com/gallery/the-machines/san-diego/",
 		"images": {
@@ -93,24 +112,5 @@
 			"thumbs": ["porsche911_1.jpg", "porsche911_2.jpg", "porsche911_3.jpg", "porsche911_4.jpg", "porsche911_5.jpg", "porsche911_6.jpg"]
 		},
 		"tagline": "The consumate performer, the Porsche 911 has barely changed in more than 50 years of production. This Singer designed 911 has been meticulously and beautifully detailed, restoring and highlighting its beauty while also strengthening its racing heart."
-	},
-	{
-		"id": "f250",
-		"year": 1964,
-		"make": "Ferrari",
-		"model": "250 GT/L Berlinetta 'Lusso'",
-		"mileage": null,
-		"engine": "2953cc 'Colombo' V12 60°",
-		"trans": "5-Speed Manual",
-		"exterior": "Rosso Italver",
-		"interior": "Cuoio",
-		"status": "Sold",
-		"price": "$1,106,702",
-		"site": "http://www.rmauctions.com/lots/lot.cfm?lot_id=1059492",
-		"images": {
-			"full": ["f250_1.jpg", "f250_2.jpg", "f250_3.jpg", "f250_5.jpg", "f250_6.jpg", "f250_7.jpg"],
-			"thumbs": ["f250_1.jpg", "f250_2.jpg", "f250_3.jpg", "f250_5.jpg", "f250_6.jpg", "f250_7.jpg"]
-		},
-		"tagline": "Both Eric Clapton and Steve McQueen were 'Lusso' owners. You're cool too, right? Well, you can always be cooler."
 	}
 ]

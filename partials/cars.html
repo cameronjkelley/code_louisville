@@ -1,39 +1,33 @@
-<div class="container">
+<div class="container"  ng-controller="CarCtrl">
 	<div class="page-header">
-		<h1 class="center">Our Cars</h1>
+		<h1 class="center">{{listing[0].year}} {{listing[0].make}} {{listing[0].model}}</h1>
 	</div>
 
 	<!-- Listing -->
-	<div class="listing mt-0 pt-0" ng-controller="CarCtrl" id="car.id">
+	<div id="listing[0].id" class="listing mt-0 pt-0">
 		<div class="row">
-			<div class="summary {{car.status}} col-md-6 col-md-push-6">
-				<h2>{{car.year}} {{car.make}} {{car.model}}<br><small>{{car.status}}</small></h2>
-				<p>{{car.tagline}}</p>
+			<div class="summary col-md-6 col-md-push-6">
+				<h3 class="{{listing[0].status}}">{{listing[0].status}}</h3>
+				<p>{{listing[0].tagline}}</p>
 				<ul class="specs pl-0">
-					<li>Engine: {{car.engine}}</li>
-					<li>Transmission: {{car.trans}}</li>
-					<li ng-hide="car.mileage===null" class="ng-hide">Mileage: {{car.mileage}}</li>
-					<li>Exterior: {{car.exterior}}</li>
-					<li>Interior: {{car.interior}}</li>
-					<li>Price: {{car.price}}</li>
+					<li>Engine: {{listing[0].engine}}</li>
+					<li>Transmission: {{listing[0].trans}}</li>
+					<li ng-hide="listing[0].mileage===null" class="ng-hide">Mileage: {{listing[0].mileage}}</li>
+					<li>Exterior: {{listing[0].exterior}}</li>
+					<li>Interior: {{listing[0].interior}}</li>
+					<li>Price: {{listing[0].price}}</li>
 				</ul>
-				<a ng-href="{{car.site}}" class="btn btn-primary" target="_blank">More Information</a>
-				<div class="btn-group">
-					<button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Cars <span class="caret"></span></button>
-					<ul class="dropdown-menu">
-						<li ng-repeat="car in cars"><a ng-click="scrollTo('{{car.id}}')">{{car.make}} {{car.model}}</a></li>
-					</ul>
-				</div>
+				<a class="btn btn-primary" ng-href="{{listing[0].site}}" target="_blank">More Information</a>
 			</div>
 			<!-- Slick Feature Image -->
 			<div class="full col-md-6 col-md-pull-6">
-				<div ng-class="$first ? 'fullsize slick' : 'fullsize slick hidden'" ng-repeat="pic in car.images.full" ng-repeat="alt in car.images.alt"><img ng-src="images/cars/full/{{car.id}}/{{pic}}"></img></div>
+				<div ng-class="$first ? 'fullsize slick' : 'fullsize slick hidden'" ng-repeat="pic in listing[0].images.full"><img ng-src="images/cars/full/{{listing[0].id}}/{{pic}}"></img></div>
 			</div>
 		</div>
 		<!-- Thumbnails -->
-		<div class="row listing-thumbs pb-0">
-			<div class="thumbs hidden-xs" ng-repeat="pic in car.images.thumbs">
-				<a ng-href="images/cars/full/{{car.id}}/{{pic}}" data-lightbox="{{car.id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="images/cars/thumb/{{car.id}}/{{pic}}"></img></a>
+		<div class="row listing[0]-thumbs pb-0">
+			<div class="thumbs hidden-xs" ng-repeat="pic in listing[0].images.thumbs">
+				<a ng-href="images/cars/full/{{listing[0].id}}/{{pic}}" data-lightbox="{{listing[0].id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="images/cars/thumb/{{listing[0].id}}/{{pic}}"></img></a>
 			</div>
 		</div>
 	</div>
