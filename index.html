@@ -30,7 +30,7 @@
 						<li class="dropdown">
 							<a class="dropdown-toggle" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cars <span class="caret"></span></a>
 							<ul class="dropdown-menu" ng-controller="CarCtrl">
-								<li ng-repeat="car in cars | orderBy:'-make'"><a ng-href="#/cars/{{car.id}}">{{car.make}} {{car.model}}</a></li>
+								<li ng-repeat="car in cars | orderBy:alphabetical"><a ng-href="#/cars/{{car.id}}">{{car.make}} {{car.model}}</a></li>
 							</ul>
 						</li>
 						<li><a href="#/contact">Contact</a></li>

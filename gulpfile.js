@@ -32,7 +32,8 @@ gulp.task("concatScripts", function() {
   	"js/lightbox.min.js", 
   	"js/app.js", 
   	"js/controllers.js", 
-  	"js/directives.js"
+  	"js/directives.js",
+  	"js/filters/js"
   	])
 	    .pipe(maps.init())
 		.pipe(concat("main.js"))
