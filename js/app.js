@@ -25,4 +25,3 @@ var babbitApp = angular.module("babbitApp", [
 		});
 	}
 ]);
-

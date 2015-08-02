@@ -358,8 +358,6 @@ var babbitApp = angular.module("babbitApp", [
 		});
 	}
 ]);
-
-
 "use strict";
 
 var babbitAppControllers = angular.module("babbitAppControllers", [])

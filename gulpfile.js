@@ -14,7 +14,6 @@ gulp.task("concatCss", function() {
 		"css/bootstrap.min.css", 
 		"css/bootstrap-theme.min.css", 
 		"css/lightbox.css", 
-		"css/slick.css", 
 		"css/babbit.css"
 		])
 	    .pipe(maps.init())
@@ -29,7 +28,6 @@ gulp.task("concatScripts", function() {
   	"js/bootstrap.min.js", 
   	"node_modules/angular/angular.min.js", 
   	"node_modules/angular-route/angular-route.min.js",
-  	"js/ui-bootstrap-0.2.0.min.js", 
   	"js/lightbox.min.js", 
   	"js/app.js", 
   	"js/controllers.js", 
