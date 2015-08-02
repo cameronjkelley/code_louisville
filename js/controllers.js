@@ -1,8 +1,8 @@
 "use strict";
 
-var babbitAppControllers = angular.module("babbitAppControllers", [])
+var babbitAppControllers = angular.module("babbitAppControllers", []);
 
-.controller("CarCtrl", ["$scope", "$http", "$location", "$routeParams", 
+babbitAppControllers.controller("CarCtrl", ["$scope", "$http", "$location", "$routeParams", 
 	function($scope, $http, $location, $routeParams) {
 		$scope.carId = $routeParams.carId;
 		$scope.listing = [];

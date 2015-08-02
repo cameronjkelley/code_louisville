@@ -5,9 +5,9 @@ var babbitApp = angular.module("babbitApp", [
 	"babbitAppControllers",
 	"babbitAppDirectives",
 	"babbitAppFilters"
-])
+]);
 
-.config(["$routeProvider",
+babbitApp.config(["$routeProvider",
 	function($routeProvider) {
 		$routeProvider.
 		when("/home", {
