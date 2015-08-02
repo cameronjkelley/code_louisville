@@ -1,10 +1,10 @@
 "use strict";
 
-var babbitApp = angular.module('babbitApp', [
-	'ngRoute',
-	'babbitAppControllers',
-	'babbitAppDirectives',
-	'babbitAppFilters'
+var babbitApp = angular.module("babbitApp", [
+	"ngRoute",
+	"babbitAppControllers",
+	"babbitAppDirectives",
+	"babbitAppFilters"
 ])
 
 .config(["$routeProvider",

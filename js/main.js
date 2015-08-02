@@ -333,11 +333,11 @@ p.directive("ngView",v);p.directive("ngView",A);v.$inject=["$route","$anchorScro
 //# sourceMappingURL=lightbox.min.map
 "use strict";
 
-var babbitApp = angular.module('babbitApp', [
-	'ngRoute',
-	'babbitAppControllers',
-	'babbitAppDirectives',
-	'babbitAppFilters'
+var babbitApp = angular.module("babbitApp", [
+	"ngRoute",
+	"babbitAppControllers",
+	"babbitAppDirectives",
+	"babbitAppFilters"
 ])
 
 .config(["$routeProvider",
