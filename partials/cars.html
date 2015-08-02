@@ -20,9 +20,9 @@
 					</ul>
 					<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#infoModal">More Information</button>
 				</div>
-				<!-- Feature Image Carousel -->
+				<!-- Fullsize Images -->
 				<div class="full col-md-6 col-md-pull-6">
-					<div ng-class="$first ? 'fullsize' : 'fullsize hidden'" ng-repeat="pic in listing[0].images.full">
+					<div ng-class="$first ? 'fullsize' : 'fullsize visible-xs'" ng-repeat="pic in listing[0].images.full">
 						<img ng-src="images/cars/full/{{listing[0].id}}/{{pic}}"></img>
 					</div>
 				</div>
