@@ -3,7 +3,8 @@
 var babbitApp = angular.module('babbitApp', [
 	'ngRoute',
 	'babbitAppControllers',
-	'babbitAppDirectives'
+	'babbitAppDirectives',
+	'babbitAppFilters'
 ])
 
 .config(["$routeProvider",

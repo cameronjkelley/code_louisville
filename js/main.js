@@ -336,7 +336,8 @@ p.directive("ngView",v);p.directive("ngView",A);v.$inject=["$route","$anchorScro
 var babbitApp = angular.module('babbitApp', [
 	'ngRoute',
 	'babbitAppControllers',
-	'babbitAppDirectives'
+	'babbitAppDirectives',
+	'babbitAppFilters'
 ])
 
 .config(["$routeProvider",
