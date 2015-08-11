@@ -338,9 +338,9 @@ var babbitApp = angular.module("babbitApp", [
 	"babbitAppControllers",
 	"babbitAppDirectives",
 	"babbitAppFilters"
-]);
+])
 
-babbitApp.config(["$routeProvider",
+.config(["$routeProvider",
 	function($routeProvider) {
 		$routeProvider.
 		when("/home", {
@@ -360,9 +360,9 @@ babbitApp.config(["$routeProvider",
 ]);
 "use strict";
 
-var babbitAppControllers = angular.module("babbitAppControllers", []);
+var babbitAppControllers = angular.module("babbitAppControllers", [])
 
-babbitAppControllers.controller("CarCtrl", ["$scope", "$http", "$location", "$routeParams", 
+.controller("CarCtrl", ["$scope", "$http", "$location", "$routeParams", 
 	function($scope, $http, $location, $routeParams) {
 		$scope.carId = $routeParams.carId;
 		$scope.listing = [];
@@ -377,9 +377,9 @@ babbitAppControllers.controller("CarCtrl", ["$scope", "$http", "$location", "$ro
 	}]);
 "use strict";
 
-var babbitAppDirectives = angular.module("babbitAppDirectives", []);
+var babbitAppDirectives = angular.module("babbitAppDirectives", [])
 
-babbitAppDirectives.directive("lightbox", function() {
+.directive("lightbox", function() {
 	return {
 		restrict: "E",
 		link: function(scope, element, attrs) {
@@ -389,9 +389,9 @@ babbitAppDirectives.directive("lightbox", function() {
 });
 "use strict";
 
-var babbitAppFilters = angular.module("babbitAppFilters", []);
+var babbitAppFilters = angular.module("babbitAppFilters", [])
 
-babbitAppFilters.filter("alphabetical", function() {
+.filter("alphabetical", function() {
 	return function(items) {
 		return items.sort();
 	};

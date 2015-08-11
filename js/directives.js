@@ -1,8 +1,8 @@
 "use strict";
 
-var babbitAppDirectives = angular.module("babbitAppDirectives", []);
+var babbitAppDirectives = angular.module("babbitAppDirectives", [])
 
-babbitAppDirectives.directive("lightbox", function() {
+.directive("lightbox", function() {
 	return {
 		restrict: "E",
 		link: function(scope, element, attrs) {
