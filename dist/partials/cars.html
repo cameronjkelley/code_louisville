@@ -15,21 +15,21 @@
 						<li>Exterior: {{listing[0].exterior}}</li>
 						<li>Interior: {{listing[0].interior}}</li>
 						<li>Price: {{listing[0].price}}</li>
-						<li class="{{listing[0].status}}">{{listing[0].status}}</li>
+						<li>Status: <span class="{{listing[0].status}}">{{listing[0].status}}</span></li>
 					</ul>
 					<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#infoModal">More Information</button>
 				</div>
 				<!-- Fullsize Images -->
 				<div class="full col-md-6 col-md-pull-6">
 					<div ng-class="$first ? 'fullsize' : 'fullsize visible-xs'" ng-repeat="pic in listing[0].images.full">
-						<img ng-src="images/cars/full/{{listing[0].id}}/{{pic}}">
+						<img ng-src="images/cars/{{listing[0].id}}/full/{{pic}}">
 					</div>
 				</div>
 			</div>
 			<!-- Thumbnails -->
 			<div class="row listing[0]-thumbs pb-0">
 				<div class="thumbs hidden-xs" ng-repeat="pic in listing[0].images.thumbs">
-					<a ng-href="images/cars/full/{{listing[0].id}}/{{pic}}" data-lightbox="{{listing[0].id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="images/cars/thumb/{{listing[0].id}}/{{pic}}"></a>
+					<a ng-href="images/cars/{{listing[0].id}}/full/{{pic}}" data-lightbox="{{listing[0].id}}"><img class="thumbnail col-sm-2 mb-0" ng-src="images/cars/{{listing[0].id}}/thumb/{{pic}}"></a>
 				</div>
 			</div>
 		</div>
@@ -43,9 +43,10 @@
 					<h4 id="moreInfoModal" class="modal-title">{{listing[0].year}} {{listing[0].make}} {{listing[0].model}}</h4>
 				</div>
 				<div class="modal-body">
-					<p>Wow, you must have deep pockets. Good for you. If you're really interested in purchasing this {{listing[0].make}}, you can check it out <a href="{{listing[0].site}}" target="_blank"><b>here</b></a>.</p>
+					<p>If you're interested in purchasing this {{listing[0].make}}, you can check it out <a href="{{listing[0].site}}" target="_blank"><b>here</b></a>.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<script>lightbox.option({"wrapAround":true});</script>
