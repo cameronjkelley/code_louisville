@@ -17,12 +17,15 @@ video {
 	max-height: 80%;
 	max-width: 80%;
 }
-
 /*******************************
 Main
 *******************************/
 .contact a {
 	text-decoration: underline;
+}
+.form-group input, .form-group textarea {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
 }
 .glyphicon {
 	padding-right: 5px;
@@ -40,7 +43,6 @@ Main
 	margin-bottom: 40px;
 	padding-bottom: 20px;
 	padding-top: 10px;
-
 }
 .listing .row {
 	margin: 0;
@@ -54,17 +56,38 @@ Main
 .page-header {
 	margin-top: 20px;
 }
+#scroll {
+	padding-top: 20px;
+	text-align: center;
+}
+#scroll a {
+	color: #333;
+}
+#scroll-arrow {
+	cursor: pointer;
+	font-size: 3em;
+}
+.specs {
+	border-bottom: 1px solid #ccc;
+}
+.summary p {
+	border-bottom: 1px solid #ccc;
+}
+#survey {
+	background-color: #eee;
+	border-radius: 6px;
+	margin-top: 20px;
+	padding: 20px 60px;
+}
 #welcome h1 {
 	margin-top: 5px;
 }
 #welcome-btn {
 	margin-top: 15px;
 }
-
 /*******************************
 Footer
 *******************************/
-
 .footer {
 	margin-top: 10px;
 	padding-top: 10px;
@@ -73,11 +96,9 @@ Footer
 	display: inline;
 	margin-right: 5px;
 }
-
 /*******************************
 Text
 *******************************/
-
 .about, .contact{
 	font-size: 1.2em;
 }
@@ -113,11 +134,9 @@ Text
 #welcome h2 {
 	font-size: 2.5em;
 }
-
 /*******************************
 Layout
 *******************************/
-
 .mb-0 { margin-bottom: 0;}
 
 .ml-0 {	margin-left: 0; }
@@ -135,11 +154,9 @@ Layout
 .pt-0 { padding-top: 0;}
 
 .center { text-align: center; }
-
 /*******************************
 Images
 *******************************/
-
 .fullsize > img {
 	border-radius: 10%;
 	margin: 0 auto;
@@ -155,11 +172,9 @@ Images
 	max-height: 100%;
 	padding: 0 15px;
 }
-
 /*******************************
 Media Queries
 *******************************/
-
 @media (max-width: 623px) {
 	#welcome h2 {
 		font-size: 1.5em;
@@ -168,15 +183,16 @@ Media Queries
 		font-size: 1em;
 	}
 }
-
 @media (max-width: 767px) {
 	#info {
 		background: url("../images/rain_man_suits.jpg") no-repeat;
 		background-size: cover;
 		margin-top: 10px;
 	}
+	#contact-form form {
+		padding-bottom: 20px;
+	}
 }
-
 @media (min-width: 768px) {
 	#info {
 		background: url("../images/charlie_ray_driving.jpg") no-repeat;
