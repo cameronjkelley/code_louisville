@@ -399,11 +399,4 @@ var babbitAppFilters = angular.module("babbitAppFilters", [])
 		return items.sort();
 	};
 });
-// $(document).ready(function() {
-	
-// 	$("#contact-form").submit(function(e) {
-// 		e.preventDefault();
-// 	});
-
-// });
 //# sourceMappingURL=main.js.map
