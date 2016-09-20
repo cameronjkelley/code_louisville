@@ -90,8 +90,11 @@ Main
 Footer
 *******************************/
 .footer {
-	margin-top: 10px;
+	margin: 0 auto;
 	padding-top: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 .footer li {
 	display: inline;
